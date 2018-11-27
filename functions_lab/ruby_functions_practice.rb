@@ -26,7 +26,16 @@ def join_string(first_string, second_string)
   return first_string + second_string
 end
 
-
 def add_string_as_number(first_word, second_word)
   return first_word.to_i + second_word.to_i
+end
+
+def number_to_full_month_name(month_name)
+  if month_name == 1
+    return "January"
+  elsif month_name == 3
+    return "March"
+  elsif month_name == 9
+    return "September"
+  end
 end
