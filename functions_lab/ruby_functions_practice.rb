@@ -19,5 +19,9 @@ def divide(first, second)
 end
 
 def length_of_string(string_length)
-  return string_length.length 
+  return string_length.length
+end
+
+def join_string(first_string, second_string)
+  return first_string + second_string
 end
