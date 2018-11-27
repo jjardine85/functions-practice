@@ -50,3 +50,8 @@ def number_to_short_month_name(month_name)
   end
   return
 end
+
+def cube_volume(length)
+  volume = length * length * length
+  return volume.to_s
+end
