@@ -39,3 +39,14 @@ def number_to_full_month_name(month_name)
     return "September"
   end
 end
+
+def number_to_short_month_name(month_name)
+  if month_name == 1
+    return "Jan"
+  elsif month_name == 4
+    return "Apr"
+  elsif month_name == 10
+    return "Oct"
+  end
+  return
+end
